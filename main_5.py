@@ -1,6 +1,6 @@
 from langchain_openai import ChatOpenAI
 
-# chat_model = ChatOpenAI(api_key=OPENAI_API_KEY, model_name="gpt-3.5-turbo")
+chat_model = ChatOpenAI(api_key=OPENAI_API_KEY, model_name="gpt-3.5-turbo")
 
 st.title('AI 작사가')
 
